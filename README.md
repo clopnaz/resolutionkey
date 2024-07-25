@@ -6,14 +6,14 @@ change your resolution with a key!
     - pywin32
 # INSTALLING
 ```
-   python pip install -U pip
-   python pip install -U keyboard pywin32
-   git clone https://github.com/clopnaz/resolutionkey
+python -m pip install -U pip
+python -m pip install -U keyboard pywin32
+git clone https://github.com/clopnaz/resolutionkey
 ```
 # RUNNING
 ```
-    cd resolutionkey
-    python resolutionkey.py 1024 768 
+cd resolutionkey
+python resolutionkey.py 1024 768 
 ```
 Then
 - To change the resolution to 1024x768, press `win` + `[`
